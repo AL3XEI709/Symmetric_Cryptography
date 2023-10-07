@@ -33,7 +33,6 @@ func main() {
 		c.HTML(200, "index.html", nil)
 	}) 
 
-	rou
 
 	router.POST("/dec", func(c *gin.Context) {
 		ct_ := c.PostForm("ct") 
